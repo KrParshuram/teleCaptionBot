@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.2",
+    "openai": "^4.47.3",
+    "telegraf": "^4.16.3"
+  }
+}
